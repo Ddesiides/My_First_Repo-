@@ -347,3 +347,380 @@ footer {
             background: #FFD6A5;
             border-radius: 8px;
             transition: 300ms;
+
+ 
+            /*Case Study One*/
+            body {
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                color: #000000;
+                line-height: 1.5;
+                margin: 0;
+            }
+            
+            /* Define Default Global Font Sizes */
+            
+            h1 {
+                font-size: 38px;
+            }
+            
+            h2 {
+                font-size: 30px;
+            }
+            
+            h3 {
+                font-size: 28px;
+            }
+            
+            h4 {
+                font-size: 18px;
+            }
+            
+            h5 {
+                font-size: 16px;
+            }
+            
+            p {
+                font-weight: 400;
+                font-size: 20px;
+            
+            }
+            
+            a {
+                font-size: 22px;
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                color: #000000;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            /*Define Global Helper Styles */
+            .intro-container {
+                display: flex;
+                align-items: center;
+            }
+            
+            .group_project {
+                font-family: "Lato", sans-serif;
+                text-align: center;
+            }
+            
+            .problems {
+                margin-left: 40%;
+            }
+            
+            .problems_ {
+                text-align: center;
+            }
+            
+            .our_solution {
+                margin-left: %;
+            }
+            
+            /* Define Navigation Styles */
+            
+            .nav-wrapper {
+                display:flex;
+                flex-direction: row wrap;
+                justify-content: flex-end;
+                align-items: center;
+                background-color: #ffffff;
+                padding-right: 15px;
+                position: sticky;
+            }
+            
+            .logo {
+                width: 10%;
+            }
+            
+            .nav-link_container {
+                display: flex;
+                justify-content: right;
+                margin-left: 20px;
+                width: 90%;
+            }
+            
+            .nav-link {
+                min-width: 10%;
+            }
+            
+            
+            /* Define Hero Styles */
+            
+            .intro-container {
+                background-color: #caffbf;
+                display: flex;
+                align-items: center;
+                margin-bottom: 60px;
+            }
+            
+            .intro {
+                width: 50%;
+            }
+            
+            .animal-welfare_img {
+                width: 50%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            
+            /* user research */
+            
+            .researching {
+                display: flex;
+                align-items: center;
+            }
+            
+            .researching_ {
+                width: 50%;
+            }
+            
+            
+            .user_research {
+                margin-left: 40%;
+            }
+            
+            .user_persona {
+                margin-left: 25%
+            }
+            
+            .user-persona {
+                margin-left: 8%;
+                font-family: "Lato", sans-serif;
+            }
+            
+            .user-persona_ {
+                text-align: center;
+                margin-right: 18%
+            }
+            
+            .user-persona-image {
+                width: 50%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                margin-right: 5%;
+            }
+            
+            .final-result_ {
+                text-align: center;
+            }
+            
+            /* interview questions */
+            
+            .interview-questions {
+                display: flex;
+                align-items: center;
+                margin-bottom: 60px;
+            }
+            
+            .interviews {
+                width: 50%;
+            }
+            
+            .user-persona-image {
+                width: 50%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                margin-right: 5%;
+            }
+            
+            .interview-questions_ {
+                margin-left: 13%
+            }
+            
+            .interview_questions {
+                margin-left: 25%
+            }
+            
+            
+            .results-interviews {
+                margin-left: 8%;
+                font-family: "Lato", sans-serif;
+            }
+            
+            /*Before And After Homapge*/
+            
+            .redesign_homepage {
+              background-color: rgba(217, 217, 217, 0.25);
+            }
+            
+            .homepage_{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 10px;
+                height: auto;
+            }
+            
+            .before-result-image {
+                width: 45%;
+                height: auto;
+                margin-left: 40px;
+            }
+            
+            .after-result-image { 
+                width: 45%;
+                height: auto;    
+            }
+            
+            .header1_before_after {
+            margin-left: 20%;
+            }
+            
+            .before_text_hp {
+              margin-left: 65%;
+            }
+            
+            .after_text_hp {
+             margin-left: 95%;  
+            }
+            
+            .affinity-text {
+              margin-left: 30%
+            }
+            
+            /* Redesign Donation Landing Page */
+            
+            .redesign_donation {
+              background-color: rgba(217, 217, 217, 0.25);
+            }
+            
+            .donation_{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 10px;
+                height: auto;
+            }
+            
+            .before-result-image-donation {
+                width: 45%;
+                height: auto;
+                margin-left: 40px;
+            }
+            
+            .after-result-image-donation { 
+                width: 45%;
+                height: auto; 
+                margin-left: 40%
+            }
+            
+            .header1_before_after_donation {
+            margin-left: 29%;
+            }
+            
+            .before_text_donation {
+              margin-left: 80%;
+            }
+            
+            .after_text_donation {
+             margin-left: 45%;  
+            }
+            
+            /* Define Footer Styles */
+            
+            footer {
+                background-color: #b2a5ff;
+                text-align: center;
+                padding: 5px;
+            }
+            
+            .copyright {
+                font-size: 10px;
+                margin-top: 30px;
+            }
+            
+            /*Design And Results*/
+            
+            .final-thoughts {
+                background-color: #caffbf;
+                display: flex;
+                align-items: center;
+            }
+            
+            .design {
+                align-items: center;
+            }
+            
+            .design_ {
+                align-items: center;
+                margin-left: 46%;
+            }
+            
+            .design-list {
+                align-items: center;
+                margin-left: 1%;
+            }
+            
+            .results {
+                align-items: center;
+                margin-left: 45%;
+            }
+            
+            .results-paragraph {
+              text-align: center;
+            }
+            
+            /*Define Media Queries Which Tell the Code How Resize*/
+            
+            @media screen and (max-width: 768px) {
+                nav {
+                    margin-right: 0;
+                }
+            
+                h1 {
+                    font-size: 24px;
+                }
+            
+                h2 {
+                    font-size: 18px;
+                }
+            
+                .hero-container {
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+                . {
+                    min-width: 100%;
+                }
+            
+                .hero-container_img img {
+                    margin-left: 40px;
+                }
+            
+                .hero-container_copy {
+                    min-width: 100%;
+                    margin: 20px;
+                    padding: 0;
+                    text-align: center;
+                }
+            
+                @media screen and (max-width: 1024px) {
+                    p {
+                        font-size: 14px;
+                    }
+            
+                    .hero-container_img {
+                        width: 50%;
+                    }
+            
+            
+                    .hero-container_copy {
+                        width: 50%;
+                    }
+            
+            
+                    @media screen and (max-width: 1024px) header a {
+                        color: #000000;
+                        font-size: 24px;
+                        text-decoration: 8px;
+            
+                        padding: 12px 48px;
+                        display: inline-block;
+                        background: #FFD6A5;
+                        border-radius: 8px;
+                        transition: 300ms;
+            
