@@ -1,0 +1,120 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #00000z0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Define Default Global Font Sizes */
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+a {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Define Navigation Styles */
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    min-width: 10%;
+    font-color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.to-right {
+    justify-content: right;
+}
+
+.intro-container {
+    background-color: #caffbf;
+
+}
+
+.container {
+    padding: 5% 10%;
+    background-color: #caffbf;
+}
+
+.ideation {
+    padding: 5% 10%;
+}
+
+.thumbnail {
+    margin-left: 6%;
+}
+
+.research {
+    margin-left: 5%;
+}
+
+
+.Intro {
+    background-color: rgba(202, 255, 191, 0.6);
+    color: black;
+    padding: 100px 25px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
