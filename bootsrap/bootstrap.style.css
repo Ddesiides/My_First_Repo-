@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    color: #00000z0;
+    color: #000000;
     line-height: 1.5;
     margin: 0;
 }
@@ -31,7 +31,6 @@ h5 {
 p {
     font-weight: 400;
     font-size: 20px;
-
 }
 
 a {
@@ -65,6 +64,10 @@ a:hover {
     justify-content: right;
 }
 
+.interview-fluid {
+    background-color: white;
+}
+
 .intro-container {
     background-color: #caffbf;
 
@@ -72,15 +75,30 @@ a:hover {
 
 .container {
     padding: 5% 10%;
-    background-color: #caffbf;
+    background-color: rgba(202, 255, 191, 0.6);
+}
+
+.persona_research {
+    padding: 5% 10%;
+    background-color: rgba(255, 232, 152, 1);
+}
+
+.final {
+    padding: 5% 10%;
+    background-color: rgba(255, 232, 152, 1);
 }
 
 .ideation {
     padding: 5% 10%;
 }
 
+.final_product {
+    padding: 5% 10%;
+    background-color: white;
+}
+
 .thumbnail {
-    margin-left: 6%;
+    padding: 1% 4%;
 }
 
 .research {
@@ -94,27 +112,23 @@ a:hover {
     padding: 100px 25px;
 }
 
-.container-fluid {
+.ideation-fluid {
     padding: 60px 50px;
+    background-color: rgba (255, 232, 152, 1);
 }
 
 .bg-grey {
     background-color: #f6f6f6;
 }
 
-.logo-small {
-    color: #f4511e;
-    font-size: 50px;
+
+@media screen and (max-width: 768px) .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
 }
 
-.logo {
-    color: #f4511e;
-    font-size: 200px;
-}
+/* Define Footer Styles */
 
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
+.container-fluid {
+    background-color: #b2a5ff;
 }

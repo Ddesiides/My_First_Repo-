@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="bootstrap.style.css" />
     <title>Hello, world!</title>
 </head>
 
@@ -18,7 +18,7 @@
     <!--logo-->
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="https://qph.cf2.quoracdn.net/main-qimg-1f214a36d260b87794f18917348c7ed7-lq" width="72" height="72"
                 alt="">
         </a>
@@ -30,7 +30,8 @@
         <div class="collapse navbar-collapse to-right" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: black;">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="navigateto:index.html" style="color: black;">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" style="color: black;">Resume</a>
@@ -39,7 +40,8 @@
                     <a class="nav-link" href="#" style="color: black;">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: black;">Contact</a>
+                    <a class="nav-link" href="mailto:ddesiides@gmail.com" target="blank"
+                        style="color: black;">Contact</a>
                 </li>
             </ul>
         </div>
@@ -69,9 +71,9 @@
     </div>
 
     <!-- Interview Questions -->
-    <div class="container-fluid text-center bg-grey">
+    <div class="interview-fluid text-center bg-white">
         <h2>Interview Questions</h2><br>
-        <div class="container-fluid bg-grey">
+        <div class="container-fluid bg-white">
             <div class="row">
                 <div class="col-sm-2">
                     <span class="glyphicon glyphicon-globe logo"></span>
@@ -97,98 +99,101 @@
         </div>
 
         <!-- User Insight -->
-        <div class="Intro text-center">
-            <h1>User Insight</h1>
-            <p>During this interview we discovered many online- shoppers struggle with long shipment from small
-                businesses or unable to make an order to another state or country. Therefore, we believe that creating a
-                reliable shopping app where customers can view verified information about small businesses, their
-                products, and reviews will open up opportunities for small businesses to gain trust from customers, and
-                thus, improve customer experience. We might do this by providing platform that unite all small
-                businesses which gives them an excellent feature e.g.: fast free shipping not only locally but also
-                international distances as well. It will help grow local business into international. Also, our users
-                will be able to see transparently contribution and they will allow to do donations to their favorite
-                brands.</p>
-            <form class="form-inline">
+        <div class="container pt-5 my-5">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2 px-5">
+                    <h3 class="font-weight-bold mb-4 text-center text-align">User Insight</h3>
+                    <p>During this interview we discovered many online- shoppers struggle with long shipment from small
+                        businesses or unable to make an order to another state or country. Therefore, we believe that
+                        creating a
+                        reliable shopping app where customers can view verified information about small businesses,
+                        their
+                        products, and reviews will open up opportunities for small businesses to gain trust from
+                        customers, and
+                        thus, improve customer experience. We might do this by providing platform that unite all small
+                        businesses which gives them an excellent feature e.g.: fast free shipping not only locally but
+                        also
+                        international distances as well. It will help grow local business into international. Also, our
+                        users
+                        will be able to see transparently contribution and they will allow to do donations to their
+                        favorite
+                        brands.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    </form>
-    </div>
 
-    <!-- Research -->
-    <div class="container-fluid text-center bg-white">
-        <h2>Research Work</h2><br>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="research">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-2ec3b46361450567935d4a20d88a8393" alt="Paris"
-                        width="453" height="560">
+        <!-- Research -->
+        <div class="persona_research py-5 background-color: rgba (255, 232, 152, 1);">
+            <h2>Research Work</h2><br>
+            <div class="row">
+                <div class="col-12 col-lg-6 pb-5 px-5 px-0">
+                    <img class="img-fluid" src="https://qph.cf2.quoracdn.net/main-qimg-2ec3b46361450567935d4a20d88a8393"
+                        alt="proto persona">
                     <p><strong>Proto Persona</strong></p>
                     <p>Created Vanessa as an idea of what kind of user would use a Ecommerce app that supports a small
                         buisnesses</p>
                 </div>
-            </div>
-            <div class="col-sm-8">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-bd0cd7fa53b0a4fb7b160dd720508db6-pjlq"
-                        alt="San Francisco" width="755" height="543">
+                <div class="col-12 col-lg-6 pb-5 px-5 px-0">
+                    <img class="img-fluid"
+                        src="https://qph.cf2.quoracdn.net/main-qimg-bd0cd7fa53b0a4fb7b160dd720508db6-pjlq"
+                        alt="User Persona">
                     <p><strong>User Persona</strong></p>
                     <p>Samantha is a 28-year-old single and free spirited individual in search of a reliable platform to
                         shop online that will help support small and medium scale businesses with great and marketable
-                        products in the market that she can purchase thereby help grow these businesses.
-                    </p>
+                        products in the market that she can purchase thereby help grow these businesses.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Problem Statement -->
-    <div class="Intro text-center">
-        <h1>Problem Statement</h1>
-        <p>Online shoppers who want to support small businesses need a reliable platform that is built on trust and
-            transparency because shoppers often have to spend a lot of time combing through reviews to verify the
-            genuineness of the product and don't know how much of their money is actually going back to the seller.
-            How might we provide a space for shoppers to shop stress-free while feeling confident that they are making a
-            contribution to the small businesses they buy from.</p>
-        <form class="form-inline">
-    </div>
-    </div>
-    </form>
-    </div>
-
-    <!-- Definition Ideation -->
-    <div class="container-fluid text-center bg-white">
-        <h2>Definition And Ideation</h2><br>
-        <h3>Ideation</h3>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="I like">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-b739b06a98e6cf7aa518cc1a9484e08b-pjlq" alt="I like"
-                        width="354" height="810">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="I wish">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-d71757e2d5c41e797b9cfe38d3c1a2d5-pjlq" alt="I wish"
-                        width="309" height="810">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="What if">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-b99f3c2170e769ccb7737225a58722ac-pjlq"
-                        alt="what if" width="407" height="613">
-                </div>
+    <div class="container pt-5 my-5 background-color:white;">
+        <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2 px-5">
+                <h3 class="font-weight-bold mb-4 text-center text-align">Problem Statement</h3>
+                <p>Online shoppers who want to support small businesses need a reliable platform that is built on trust
+                    and
+                    transparency because shoppers often have to spend a lot of time combing through reviews to verify
+                    the
+                    genuineness of the product and don't know how much of their money is actually going back to the
+                    seller.
+                    How might we provide a space for shoppers to shop stress-free while feeling confident that they are
+                    making a
+                    contribution to the small businesses they buy from.</p>
             </div>
         </div>
     </div>
-    <div class="ideation text-center">
-        <p>Responses received from interviews categorized into a ideation graph. There were similarities of the users
-            responses. what users like, what they wish to see, and ideas that can impact a user's experience. The
-            responses were then put into a feature prioritization where it was broken down to, what was important for
-            the app, and what was important for the users or to both user and app.</p>
-    </div>
 
+    <!-- Definition Ideation -->
+    <div class="persona_research py-5 background-color: rgba (255, 232, 152, 1);">
+        <h2 class="text-center">Definition And Ideation</h2><br>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-b739b06a98e6cf7aa518cc1a9484e08b-pjlq" alt="I like">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-d71757e2d5c41e797b9cfe38d3c1a2d5-pjlq" alt="I wish">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-b99f3c2170e769ccb7737225a58722ac-pjlq" alt="what if">
+            </div>
+            <div class="ideation text-center">
+                <p>Responses received from interviews categorized into a ideation graph. There were similarities of the
+                    users
+                    responses. what users like, what they wish to see, and ideas that can impact a user's experience.
+                    The
+                    responses were then put into a feature prioritization where it was broken down to, what was
+                    important for
+                    the app, and what was important for the users or to both user and app.</p>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- Story Board -->
-    <div class="container-fluid text-center bg-grey">
+    <div class="container-fluid text-center bg-white">
         <h2>Story Board</h2>
         <div class="row text-center">
             <div class="col-sm-8">
@@ -200,73 +205,65 @@
         </div>
     </div>
     <!-- Wireframe -->
-    <div class="container-fluid text-center bg-white">
-        <h2>Wireframe Sketches</h2><br>
+    <div class="persona_research py-5 background-color: rgba (255, 232, 152, 1);">
+        <h2 class="text-center">Wireframe Sketches</h2><br>
         <p> Sketched out wireframes independently and then shared out what could be beneficial to the users. What
             features can let the users support the small business. What can show the seller is trustworthy?</p>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-93960a1dbfd8ee9c7c2e29fa70da5ade-pjlq" alt="Paris"
-                        width="400" height="460">
-                    <p><strong>Product Page</strong></p>
-                    <p>Sketched By Destiny Valdez</p>
-                </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-93960a1dbfd8ee9c7c2e29fa70da5ade-pjlq"
+                    alt="product page">
+                <p class="text-center"><strong>Product Page</strong></p>
+                <p class="text-center">Sketched By Destiny Valdez</p>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-554e86637396f8fcb1740e499fd9ce70-pjlq"
-                        alt="detail page" width="400" height="460">
-                    <p><strong>Detail Page</strong></p>
-                    <p>Sketched by Jung Min Park</p>
-                </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-554e86637396f8fcb1740e499fd9ce70-pjlq"
+                    alt="detail page">
+                <p class="text-center"><strong>Detail Page</strong></p>
+                <p class="text-center">Sketched by Jung Min Park</p>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-b6341a9f5419582c1b0f7e9d2dd7af1f-pjlq"
-                        alt="homepage" width="400" height="460">
-                    <p><strong>Homepage</strong></p>
-                    <p>Sketched by Jung Min Park</p>
-                </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-b6341a9f5419582c1b0f7e9d2dd7af1f-pjlq" alt="homepage">
+                <p class="text-center"><strong>Homepage</strong></p>
+                <p class="text-center">Sketched by Jung Min Park</p>
             </div>
         </div>
+    </div>
     </div>
     <!-- Final Product-->
-    <div class="container-fluid text-center bg-white">
-        <h2>Final App</h2><br>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-c40bb380ad0af0b19901a08ca9247065" alt="Homepage"
-                        width="400" height="916">
-                    <p><strong>Homepage</strong></p>
-                </div>
+    <div class="final_product py-5 background-color: white;">
+        <h2 class="text-center">Final App</h2><br>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid" src="https://qph.cf2.quoracdn.net/main-qimg-c40bb380ad0af0b19901a08ca9247065"
+                    alt="product page">
+                <p class="text-center"><strong>Homepage</strong></p>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-12b5aeab3c6f64f9122e8217d963789e"
-                        alt="Business Page" width="400" height="926">
-                    <p><strong>Business Page</strong></p>
-                </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid" src="https://qph.cf2.quoracdn.net/main-qimg-12b5aeab3c6f64f9122e8217d963789e"
+                    alt="detail page">
+                <p class="text-center"><strong>Business Page</strong></p>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="https://qph.cf2.quoracdn.net/main-qimg-46a77334e2d7eca8dc735c1831caa8bd"
-                        alt="Product Page" width="400" height="1191">
-                    <p><strong>Product Page</strong></p>
-                </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-5 px-5">
+                <img class="img-fluid" src="https://qph.cf2.quoracdn.net/main-qimg-46a77334e2d7eca8dc735c1831caa8bd"
+                    alt="homepage">
+                <p class="text-center"><strong>Product Page</strong></p>
             </div>
         </div>
     </div>
+    </div>
     <!-- Container (About Section) -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>Solution</h2>
+    </div>
+    <div class="final py-5 my-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-lg-6 px-5">
+                <h2 class="font-weight-bold mb-4 text-center text-lg-left">Solution</h2>
                 <p>JED, a platform that focuses on building trust between the seller and customers. Customers have
                     access to detailed information on the product and a cost down of each item they purchased.
-                    Information about the sellers are easy to find and customers can also support them by donations.
-                </p>
+                    Information about the sellers are easy to find and customers can also support them by donations.</p>
                 <h2>Tools Used</h2>
                 <ul>
                     <li> Figma</li>
@@ -276,16 +273,26 @@
                     <li> Google Forms </li>
                 </ul>
                 <h2>The Process</h2>
-                <p> Research there were lots of different methods like the Affinity Diagram where the responses from the
+                <p> Research, there were lots of different methods like the Affinity Diagram where the responses from
+                    the
                     interviews were broken down into categories: pain points, what attracts shoppers, and benefits of
                     shopping from small business.</p>
             </div>
-            <div class="col-sm-4">
-                <img src="https://qph.cf2.quoracdn.net/main-qimg-7c89e03352ef0e4edb3218668e3f0c55" alt="Product Page"
-                    width="400" height="926">
+            <div class="col-12 col-lg-6 py-5 px-0">
+                <img class="img-fluid d-none d-sm-block d-md-block"
+                    src="https://qph.cf2.quoracdn.net/main-qimg-7c89e03352ef0e4edb3218668e3f0c55" alt="final app">
             </div>
         </div>
     </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bkg-#b2a5ff text-center py-5 my-5">
+            <div class="col-12">
+                <h2 class="font-weight-bold">Contact Me</h2>
+                <p>I'm always ready to design and create. If you are too, then lets have a chat</p>
+                <a class="link-primary" target="blank" href="mailto:m.anndailey@gmail.com">ddesiides@gmail.com</a>
+                <p class="copyright">&copy; 2022 "Destiny Valdez". All Rights Reserved.</p>
+            </div>
 
 </body>
 
